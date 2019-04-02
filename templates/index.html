@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('https://i.pinimg.com/originals/63/7f/8c/637f8c94edfb5321f05820f83cbad256.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>Through Time</h1>
+            <span class="subheading">A Personal Journey through Watches</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-preview">
+          <a href="{{ url_for('post_four') }}">
+            <h2 class="post-title">
+              Omega Speedmaster Professional
+            </h2>
+            <h3 class="post-subtitle">
+              My personal grail: Going as far as the moon, yet so far from my wrist.
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="{{ url_for('about') }}">Felix</a>
+            on May 7, 2019</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+          <a href="{{ url_for('post_three') }}">
+            <h2 class="post-title">
+              Anniversary review of my Seiko SKX013
+            </h2>
+            <h3 class="post-subtitle">
+              I will not give up on it ... and nor will it
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="{{ url_for('about') }}">Felix</a>
+            on April 5, 2019</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+          <a href="{{ url_for('post_two') }}">
+            <h2 class="post-title">
+              SNK809 review when it worked
+            </h2>
+            <h3 class="post-subtitle">
+              Review of a Broken SNK809
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="{{ url_for('about') }}">Felix</a>
+            on September 23, 2018</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+          <a href="{{ url_for('post_one') }}">
+            <h2 class="post-title">
+              The watch that started it all
+            </h2>
+            <h3 class="post-subtitle">
+              The tiny Citizen Quartz that accompanied me through Middle and High School.
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="{{ url_for('about') }}">Felix</a>
+            on March 30, 2018</p>
+        </div>
+        <hr>
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+{% endblock %}
