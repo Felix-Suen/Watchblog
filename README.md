@@ -1,6 +1,6 @@
-# [WatchRecord](http://watchrecord.herokuapp.com/)
+# [WatchRecord](http://watchrecord.me)
 
-Visit my blog at http://watchrecord.herokuapp.com/
+Visit my blog at http://watchrecord.me
 
 ## Description
 
